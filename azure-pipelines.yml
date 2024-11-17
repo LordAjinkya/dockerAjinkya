@@ -45,7 +45,7 @@ stages:
      steps:
      - task: AzureRmWebAppDeployment@3
        inputs:
-         azureSubscription: 'Azure Pass - Sponsorship'
+         azureSubscription: 'Azure Pass - Sponsorship(22ce7f86-b5b2-4760-ac9c-51b1a8899754)'
          appType: 'appLinux'
          WebAppName: 'dockerajinkya'
          DockerNamespace: '$(containerRegistry)'
