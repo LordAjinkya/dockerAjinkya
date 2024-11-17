@@ -55,4 +55,6 @@ stages:
          TakeAppOfflineFlag: true
          UseWebDeploy: true
          RenameFilesFlag: true
+         
+     - task: PublishBuildArtifacts@1
 
